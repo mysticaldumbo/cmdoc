@@ -1,0 +1,17 @@
+cmdoc
+-----
+view cmdoc/cptf documents easily with a simple command.
+
+Install
+-------
+1. run the following commands:
+| git clone https://www.github.com/mysticaldumbo/cmdoc.git
+| cd cmdoc
+| g++ cmdoc.cpp -o cmdoc.exe
+2. add the cmdoc folder to your path.
+
+Usage
+-----
+to open the command documents you can use the `cmdoc` command as in this example:
+| cmdoc example.cmdoc
+| cmdoc example.cptf
